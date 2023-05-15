@@ -17,9 +17,9 @@ public class Main {
                 "С именем fullName — для хранения Ф. И. О. сотрудника в формате \"Фамилия Имя Отчество\".\n" +
                 "Выведите в консоль фразу: «ФИО сотрудника — …");
         System.out.println("Решение задачи 1");
-        String Surname = "Иванов";
-        String Name = "Иван";
-        String Fathername = "Иванович";
+        String Surname = "Черненький";
+        String Name = "Никита";
+        String Fathername = "Александрович";
         String fullName = Surname + " " + Name + " " + Fathername;
         System.out.print("ФИО сотрудника - " + fullName);
         System.out.println();
@@ -35,7 +35,7 @@ public class Main {
                 "В качестве строки с исходными данными используйте строку fullName.\n" +
                 "\n" +
                 "Результат программы выведите в консоль в формате: \"Данные ФИО сотрудника для заполнения отчета — …\"");
-        String fullName = "Ivanov Ivan Ivanovich";
+        String fullName = "Сhernenkiy Nikita Alexandrovich";
         System.out.println("ФИО сотрудника - " + fullName);
         System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());
     }
